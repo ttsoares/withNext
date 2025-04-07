@@ -1,0 +1,218 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.7.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    },
+    {
+      "name": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "projectFileMap": {
+      "withNext": [
+        {
+          "file": "apps/withNext/eslint.config.mjs",
+          "hash": "10818484782922660641",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/withNext/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/withNext/next-env.d.ts",
+          "hash": "1320675027584673186"
+        },
+        {
+          "file": "apps/withNext/next.config.js",
+          "hash": "17252635002163063865",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/withNext/package.json",
+          "hash": "16036669649786319484",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/withNext/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/withNext/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/withNext/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/withNext/src/app/api/hello/route.ts",
+          "hash": "495073956729887886"
+        },
+        {
+          "file": "apps/withNext/src/app/global.css",
+          "hash": "291024361394925992"
+        },
+        {
+          "file": "apps/withNext/src/app/layout.tsx",
+          "hash": "8601351672139516947"
+        },
+        {
+          "file": "apps/withNext/src/app/page.tsx",
+          "hash": "2258428165359861373"
+        },
+        {
+          "file": "apps/withNext/tailwind.config.js",
+          "hash": "5937918000814531646"
+        },
+        {
+          "file": "apps/withNext/tsconfig.json",
+          "hash": "11370802300114309977"
+        }
+      ],
+      "withNext-e2e": [
+        {
+          "file": "apps/withNext-e2e/cypress.config.ts",
+          "hash": "16593236460119509999",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/withNext-e2e/eslint.config.mjs",
+          "hash": "7267301145493616340",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "apps/withNext-e2e/package.json",
+          "hash": "3954661368703748703"
+        },
+        {
+          "file": "apps/withNext-e2e/src/e2e/app.cy.ts",
+          "hash": "14660982232221941140"
+        },
+        {
+          "file": "apps/withNext-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/withNext-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/withNext-e2e/src/support/commands.ts",
+          "hash": "7135223079411169068"
+        },
+        {
+          "file": "apps/withNext-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/withNext-e2e/tsconfig.json",
+          "hash": "10055801225911215402"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11781386581622614206"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16884713733442577066"
+      },
+      {
+        "file": "README.md",
+        "hash": "6774804674952723263"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "nx.json",
+        "hash": "473491517943053477"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3127380685626444253"
+      },
+      {
+        "file": "package.json",
+        "hash": "17807005347615629533"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18132073024976155609"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "15662971567688404151"
+      }
+    ]
+  }
+}

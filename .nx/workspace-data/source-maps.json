@@ -1,0 +1,662 @@
+{
+  "apps/withNext-e2e": {
+    "root": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.dependsOn": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.cache": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.outputs": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.syncGenerators": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.executor": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/withNext-e2e/tsconfig.json",
+      "@nx/js/typescript"
+    ],
+    "metadata.targetGroups": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.cache": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.outputs": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.inputs": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.cache": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.parallelism": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.executor": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.cwd": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.command": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies.0": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.description": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.command": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.example": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.executor": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.cwd": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.command": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies.0": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.description": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.command": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.example": [
+      "apps/withNext-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.lint": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/withNext-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "implicitDependencies": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "implicitDependencies.withNext": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/withNext-e2e/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "apps/withNext": {
+    "root": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.cache": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.tty": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build.options.command": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.dependsOn": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.executor": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.cwd": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.start.options.command": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.cwd": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.serve-static.options.command": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/withNext/next.config.js",
+      "@nx/next/plugin"
+    ],
+    "targets.lint": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/withNext/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/withNext/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

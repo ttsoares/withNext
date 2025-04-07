@@ -1,0 +1,63 @@
+{
+  "16764348565128899641": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/withNext",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/withNext/.next",
+        "{workspaceRoot}/apps/withNext/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/withNext"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/withNext"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/withNext"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects withNext --includeDependentProjects -- npx nx build-deps withNext"
+    }
+  }
+}
